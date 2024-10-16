@@ -1,0 +1,48 @@
+h2 {
+    color: blue;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+/* "." this symbol is used in css file before the name selected for class selector */
+.p3 {
+    color: blue;
+    background-color: cadetblue;
+}
+/* "#" this symbol is used in css file before the name selected for id selector */
+#custom-header {
+    color: rgb(128, 0, 17);
+}
+/* these are some properties that can be used for designing */
+.text-prop{
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: 10px 3px 3px;
+    text-transform: uppercase;
+} 
+.block{
+    background-color: black;
+    color: brown;
+    width: 50%;
+    height: 200px;
+    /* margin => outter space 
+       padding => inner space*/
+       margin: 10%;
+       padding-left: 5%;
+       padding-top: 5% ;
+       /* border => for outer boder */
+       /* short hand combination of multiple css prop*/
+       /* border 1st = width of the border
+          border 2nd = format in which we want border
+          borser 3rd = color of the border
+       */
+       border: 2px solid red;
+       border-radius: 20px ;
+       border-top-left-radius:30px ;
+}
+.design{
+    
+}
